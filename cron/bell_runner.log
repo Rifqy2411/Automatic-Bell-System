@@ -393,3 +393,284 @@
 [2026-03-17 11:55:01] SQL result rows: 1
 [2026-03-17 11:55:01] Found schedule id=17 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
 [2026-03-17 11:55:01] Running: XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 /usr/bin/mpg123 -o pulse '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:55:22] Return code: 0
+[2026-03-17 11:55:22] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:55:22] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:55:22] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:55:22] OUT: 
+[2026-03-17 11:55:22] OUT: Directory: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/
+[2026-03-17 11:55:22] OUT: Playing MPEG stream 1 of 1: istirahat.mp3 ...
+[2026-03-17 11:55:22] OUT: > 001+810  00:00.00+00:21.13 --- 100=100 160 kb/s  523 B acc    0 clip p+0.000
+[2026-03-17 11:55:22] OUT: MPEG 2.0 L III vbr 22050 mono
+[2026-03-17 11:55:22] OUT: 
+[2026-03-17 11:55:22] OUT: 	Title:
+[2026-03-17 11:55:22] OUT: 	Artist:
+[2026-03-17 11:55:22] OUT: 	Album:
+[2026-03-17 11:55:22] OUT: 	Year:
+[2026-03-17 11:55:22] OUT: 	Genre:
+[2026-03-17 11:55:22] OUT: 	Comment:
+[2026-03-17 11:55:22] OUT: 
+[2026-03-17 11:55:22] OUT: 
+[2026-03-17 11:55:22] OUT: 
+[2026-03-17 11:55:22] OUT: [0:21] Decoding of istirahat.mp3 finished.
+[2026-03-17 11:56:01] Started. time=11:56 day=Tuesday
+[2026-03-17 11:56:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:56'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:56:01] SQL result rows: 0
+[2026-03-17 11:57:01] Started. time=11:57 day=Tuesday
+[2026-03-17 11:57:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:57'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:57:01] SQL result rows: 0
+[2026-03-17 11:58:01] Started. time=11:58 day=Tuesday
+[2026-03-17 11:58:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:58'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:58:01] SQL result rows: 0
+[2026-03-17 11:59:01] Started. time=11:59 day=Tuesday
+[2026-03-17 11:59:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:59'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:59:01] SQL result rows: 0
+[2026-03-17 12:00:01] Started. time=12:00 day=Tuesday
+[2026-03-17 12:00:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:00'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:00:01] SQL result rows: 0
+[2026-03-17 12:01:01] Started. time=12:01 day=Tuesday
+[2026-03-17 12:01:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:01'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:01:01] SQL result rows: 0
+[2026-03-17 12:02:01] Started. time=12:02 day=Tuesday
+[2026-03-17 12:02:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:02'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:02:01] SQL result rows: 0
+[2026-03-17 12:03:01] Started. time=12:03 day=Tuesday
+[2026-03-17 12:03:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:03'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:03:01] SQL result rows: 0
+[2026-03-17 12:04:01] Started. time=12:04 day=Tuesday
+[2026-03-17 12:04:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:04'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:04:01] SQL result rows: 0
+[2026-03-17 12:05:02] Started. time=12:05 day=Tuesday
+[2026-03-17 12:05:02] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:05'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:05:02] SQL result rows: 0
+[2026-03-17 12:06:01] Started. time=12:06 day=Tuesday
+[2026-03-17 12:06:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:06'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:06:01] SQL result rows: 0
+[2026-03-17 12:07:01] Started. time=12:07 day=Tuesday
+[2026-03-17 12:07:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:07'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:07:01] SQL result rows: 0
+[2026-03-17 12:08:01] Started. time=12:08 day=Tuesday
+[2026-03-17 12:08:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:08'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:08:01] SQL result rows: 0
+[2026-03-17 12:09:01] Started. time=12:09 day=Tuesday
+[2026-03-17 12:09:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:09'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:09:01] SQL result rows: 0
+[2026-03-17 12:10:01] Started. time=12:10 day=Tuesday
+[2026-03-17 12:10:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:10'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:10:01] SQL result rows: 0
+[2026-03-17 12:11:01] Started. time=12:11 day=Tuesday
+[2026-03-17 12:11:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:11'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:11:01] SQL result rows: 0
+[2026-03-17 12:12:01] Started. time=12:12 day=Tuesday
+[2026-03-17 12:12:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:12'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:12:01] SQL result rows: 0
+[2026-03-17 12:13:01] Started. time=12:13 day=Tuesday
+[2026-03-17 12:13:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:13'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:13:01] SQL result rows: 0
+[2026-03-17 12:14:01] Started. time=12:14 day=Tuesday
+[2026-03-17 12:14:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:14'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:14:01] SQL result rows: 0
+[2026-03-17 12:15:01] Started. time=12:15 day=Tuesday
+[2026-03-17 12:15:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:15'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:15:01] SQL result rows: 0
+[2026-03-17 12:16:01] Started. time=12:16 day=Tuesday
+[2026-03-17 12:16:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:16'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:16:01] SQL result rows: 0
+[2026-03-17 12:17:01] Started. time=12:17 day=Tuesday
+[2026-03-17 12:17:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:17'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:17:01] SQL result rows: 0
+[2026-03-17 12:18:01] Started. time=12:18 day=Tuesday
+[2026-03-17 12:18:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:18'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:18:01] SQL result rows: 0
+[2026-03-17 12:19:01] Started. time=12:19 day=Tuesday
+[2026-03-17 12:19:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:19'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:19:01] SQL result rows: 0
+[2026-03-17 12:20:01] Started. time=12:20 day=Tuesday
+[2026-03-17 12:20:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:20'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:20:01] SQL result rows: 0
+[2026-03-17 12:21:01] Started. time=12:21 day=Tuesday
+[2026-03-17 12:21:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:21'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:21:01] SQL result rows: 0
+[2026-03-17 12:22:01] Started. time=12:22 day=Tuesday
+[2026-03-17 12:22:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:22'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:22:01] SQL result rows: 0
+[2026-03-17 12:23:01] Started. time=12:23 day=Tuesday
+[2026-03-17 12:23:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:23'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:23:01] SQL result rows: 0
+[2026-03-17 12:24:01] Started. time=12:24 day=Tuesday
+[2026-03-17 12:24:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:24'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:24:01] SQL result rows: 0
+[2026-03-17 12:25:01] Started. time=12:25 day=Tuesday
+[2026-03-17 12:25:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:25'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:25:01] SQL result rows: 1
+[2026-03-17 12:25:01] Found schedule id=30 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 12:25:01] Running: XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 /usr/bin/mpg123 -o pulse '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 12:25:23] Return code: 0
+[2026-03-17 12:25:23] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 12:25:23] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 12:25:23] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 12:25:23] OUT: 
+[2026-03-17 12:25:23] OUT: Directory: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/
+[2026-03-17 12:25:23] OUT: Playing MPEG stream 1 of 1: istirahat.mp3 ...
+[2026-03-17 12:25:23] OUT: > 001+810  00:00.00+00:21.13 --- 100=100 160 kb/s  523 B acc    0 clip p+0.000
+[2026-03-17 12:25:23] OUT: MPEG 2.0 L III vbr 22050 mono
+[2026-03-17 12:25:23] OUT: 
+[2026-03-17 12:25:23] OUT: 	Title:
+[2026-03-17 12:25:23] OUT: 	Artist:
+[2026-03-17 12:25:23] OUT: 	Album:
+[2026-03-17 12:25:23] OUT: 	Year:
+[2026-03-17 12:25:23] OUT: 	Genre:
+[2026-03-17 12:25:23] OUT: 	Comment:
+[2026-03-17 12:25:23] OUT: 
+[2026-03-17 12:25:23] OUT: 
+[2026-03-17 12:25:23] OUT: 
+[2026-03-17 12:25:23] OUT: [0:21] Decoding of istirahat.mp3 finished.
+[2026-03-17 12:26:01] Started. time=12:26 day=Tuesday
+[2026-03-17 12:26:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '12:26'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 12:26:01] SQL result rows: 1
+[2026-03-17 12:26:01] Found schedule id=31 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 12:26:01] Running: XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 /usr/bin/mpg123 -o pulse '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 12:26:22] Return code: 0
+[2026-03-17 12:26:22] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 12:26:22] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 12:26:22] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 12:26:22] OUT: 
+[2026-03-17 12:26:22] OUT: Directory: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/
+[2026-03-17 12:26:22] OUT: Playing MPEG stream 1 of 1: istirahat.mp3 ...
+[2026-03-17 12:26:22] OUT: > 001+810  00:00.00+00:21.13 --- 100=100 160 kb/s  523 B acc    0 clip p+0.000
+[2026-03-17 12:26:22] OUT: MPEG 2.0 L III vbr 22050 mono
+[2026-03-17 12:26:22] OUT: 
+[2026-03-17 12:26:22] OUT: 	Title:
+[2026-03-17 12:26:22] OUT: 	Artist:
+[2026-03-17 12:26:22] OUT: 	Album:
+[2026-03-17 12:26:22] OUT: 	Year:
+[2026-03-17 12:26:22] OUT: 	Genre:
+[2026-03-17 12:26:22] OUT: 	Comment:
+[2026-03-17 12:26:22] OUT: 
+[2026-03-17 12:26:22] OUT: 
+[2026-03-17 12:26:22] OUT: 
+[2026-03-17 12:26:22] OUT: [0:21] Decoding of istirahat.mp3 finished.

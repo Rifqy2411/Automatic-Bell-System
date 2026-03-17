@@ -4,11 +4,25 @@ include "../config/db.php";
 
 // CREATE
 if (isset($_POST['add'])) {
-    $time = $_POST['time'];
-    $day = $_POST['day'];
-    $sound_id = $_POST['sound_id'];
+    $rawTime = isset($_POST['time']) ? trim($_POST['time']) : '';
+    if (preg_match('/^\d{2}:\d{2}(?::\d{2})?$/', $rawTime)) {
+        $time = date('H:i:00', strtotime($rawTime));
+        $day = $_POST['day'];
+        $sound_id = intval($_POST['sound_id']);
 
-    $conn->query("INSERT INTO schedules (bell_time, day, sound_id) VALUES ('$time','$day','$sound_id')");
+        $stmt = $conn->prepare("INSERT INTO schedules (bell_time, day, sound_id) VALUES (?, ?, ?)");
+        if ($stmt) {
+            $stmt->bind_param('ssi', $time, $day, $sound_id);
+            if (!$stmt->execute()) {
+                $formError = 'Database error: ' . $stmt->error;
+            }
+            $stmt->close();
+        } else {
+            $formError = 'Prepare failed: ' . $conn->error;
+        }
+    } else {
+        $formError = 'Format waktu tidak valid. Gunakan HH:MM.';
+    }
 }
 
 $sounds = $conn->query("SELECT * FROM sounds");
@@ -16,6 +30,9 @@ $schedules = $conn->query("SELECT schedules.*, sounds.filename FROM schedules JO
 ?>
 
 <h3>Add Schedule</h3>
+<?php if (!empty($formError)): ?>
+    <div style="color:red"><?= htmlspecialchars($formError) ?></div>
+<?php endif; ?>
 <form method="POST">
     <input type="time" name="time" required>
 
@@ -49,7 +66,7 @@ $schedules = $conn->query("SELECT schedules.*, sounds.filename FROM schedules JO
 
 <?php while ($row = $schedules->fetch_assoc()): ?>
 <tr>
-    <td><?= $row['bell_time'] ?></td>
+    <td><?= date('H:i', strtotime($row['bell_time'])) ?></td>
     <td><?= $row['day'] ?></td>
     <td><?= $row['filename'] ?></td>
     <td>
