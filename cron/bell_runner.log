@@ -1,0 +1,395 @@
+[2026-03-17 04:31:46] Started. time=04:31 day=Tuesday
+[2026-03-17 04:31:46] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '04:31'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 04:31:46] SQL result rows: 0
+[2026-03-17 04:32:01] Started. time=04:32 day=Tuesday
+[2026-03-17 04:32:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '04:32'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 04:32:01] SQL result rows: 0
+[2026-03-17 11:32:26] Started. time=11:32 day=Tuesday
+[2026-03-17 11:32:26] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:32'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:32:26] SQL result rows: 1
+[2026-03-17 11:32:26] Found schedule id=7 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/test.mp3
+[2026-03-17 11:32:26] Missing file: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/test.mp3
+[2026-03-17 11:33:01] Started. time=11:33 day=Tuesday
+[2026-03-17 11:33:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:33'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:33:01] SQL result rows: 0
+[2026-03-17 11:34:01] Started. time=11:34 day=Tuesday
+[2026-03-17 11:34:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:34'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:34:01] SQL result rows: 0
+[2026-03-17 11:34:33] Started. time=11:34 day=Tuesday
+[2026-03-17 11:34:33] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:34'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:34:33] SQL result rows: 0
+[2026-03-17 11:35:01] Started. time=11:35 day=Tuesday
+[2026-03-17 11:35:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:35'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:35:01] SQL result rows: 0
+[2026-03-17 11:36:01] Started. time=11:36 day=Tuesday
+[2026-03-17 11:36:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:36'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:36:01] SQL result rows: 0
+[2026-03-17 11:36:04] Started. time=11:36 day=Tuesday
+[2026-03-17 11:36:04] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:36'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:36:04] SQL result rows: 0
+[2026-03-17 11:37:01] Started. time=11:37 day=Tuesday
+[2026-03-17 11:37:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:37'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:37:01] SQL result rows: 0
+[2026-03-17 11:37:06] Started. time=11:37 day=Tuesday
+[2026-03-17 11:37:06] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:37'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:37:06] SQL result rows: 0
+[test_query] CT=11:37 CD=Tuesday Query=SELECT schedules.*, sounds.filename FROM schedules JOIN sounds ON schedules.sound_id = sounds.id WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:37' AND schedules.day = 'Tuesday'
+[test_query] rows=0
+[2026-03-17 11:38:01] Started. time=11:38 day=Tuesday
+[2026-03-17 11:38:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:38'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:38:01] SQL result rows: 0
+[2026-03-17 11:39:00] Started. time=11:39 day=Tuesday
+[2026-03-17 11:39:00] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:39'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:39:00] SQL result rows: 1
+[2026-03-17 11:39:00] Found schedule id=11 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:39:00] Running: DISPLAY=:0 /usr/bin/mpg123 '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:39:01] Started. time=11:39 day=Tuesday
+[2026-03-17 11:39:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:39'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:39:01] SQL result rows: 1
+[2026-03-17 11:39:01] Found schedule id=11 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:39:01] Running: DISPLAY=:0 /usr/bin/mpg123 '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:39:03] Return code: 139
+[2026-03-17 11:39:03] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:39:03] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:39:03] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:39:03] OUT: Cannot connect to server socket err = No such file or directory
+[2026-03-17 11:39:03] OUT: Cannot connect to server request channel
+[2026-03-17 11:39:03] OUT: jack server is not running or cannot be started
+[2026-03-17 11:39:03] OUT: JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[2026-03-17 11:39:03] OUT: JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[2026-03-17 11:39:03] OUT: Segmentation fault (core dumped)
+[2026-03-17 11:39:03] Finished run.
+[2026-03-17 11:39:22] Return code: 0
+[2026-03-17 11:39:22] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:39:22] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:39:22] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:39:22] OUT: 
+[2026-03-17 11:39:22] OUT: Directory: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/
+[2026-03-17 11:39:22] OUT: 
+[2026-03-17 11:39:22] OUT: Terminal control enabled, press 'h' for listing of keys and functions.
+[2026-03-17 11:39:22] OUT: 
+[2026-03-17 11:39:22] OUT: Playing MPEG stream 1 of 1: istirahat.mp3 ...
+[2026-03-17 11:39:22] OUT: > 001+810  00:00.00+00:21.13 --- 100=100 160 kb/s  523 B acc    0 clip p+0.000
+[2026-03-17 11:39:22] OUT: MPEG 2.0 L III vbr 22050 mono
+[2026-03-17 11:39:22] OUT: 
+[2026-03-17 11:39:22] OUT: 	Title:
+[2026-03-17 11:39:22] OUT: 	Artist:
+[2026-03-17 11:39:22] OUT: 	Album:
+[2026-03-17 11:39:22] OUT: 	Year:
+[2026-03-17 11:39:22] OUT: 	Genre:
+[2026-03-17 11:39:22] OUT: 	Comment:
+[2026-03-17 11:39:22] OUT: 
+[2026-03-17 11:39:22] OUT: 
+[2026-03-17 11:39:22] OUT: 
+[2026-03-17 11:39:22] OUT: [0:21] Decoding of istirahat.mp3 finished.
+[2026-03-17 11:39:22] Finished run.
+[2026-03-17 11:40:01] Started. time=11:40 day=Tuesday
+[2026-03-17 11:40:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:40'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:40:01] SQL result rows: 0
+[2026-03-17 11:41:01] Started. time=11:41 day=Tuesday
+[2026-03-17 11:41:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:41'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:41:01] SQL result rows: 0
+[2026-03-17 11:42:01] Started. time=11:42 day=Tuesday
+[2026-03-17 11:42:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:42'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:42:01] SQL result rows: 1
+[2026-03-17 11:42:01] Found schedule id=12 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:42:01] Running: DISPLAY=:0 /usr/bin/mpg123 '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:42:02] Return code: 139
+[2026-03-17 11:42:02] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:42:02] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:42:02] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:42:02] OUT: Cannot connect to server socket err = No such file or directory
+[2026-03-17 11:42:02] OUT: Cannot connect to server request channel
+[2026-03-17 11:42:02] OUT: jack server is not running or cannot be started
+[2026-03-17 11:42:02] OUT: JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[2026-03-17 11:42:02] OUT: JackShmReadWritePtr::~JackShmReadWritePtr - Init not done for -1, skipping unlock
+[2026-03-17 11:42:02] OUT: Segmentation fault (core dumped)
+[2026-03-17 11:42:02] Finished run.
+[2026-03-17 11:43:01] Started. time=11:43 day=Tuesday
+[2026-03-17 11:43:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:43'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:43:01] SQL result rows: 0
+[2026-03-17 11:43:11] Started. time=11:43 day=Tuesday
+[2026-03-17 11:43:11] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:43'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:43:11] SQL result rows: 0
+[2026-03-17 11:44:01] Started. time=11:44 day=Tuesday
+[2026-03-17 11:44:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:44'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:44:01] SQL result rows: 1
+[2026-03-17 11:44:01] Found schedule id=13 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:44:01] Running: DISPLAY=:0 /usr/bin/mpg123 -o alsa '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:44:01] Return code: 255
+[2026-03-17 11:44:01] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:44:01] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:44:01] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:44:01] OUT: [src/libout123/modules/alsa.c:open_alsa():181] error: cannot open device default
+[2026-03-17 11:44:01] OUT: [src/libout123/libout123.c:check_output_module():1163] error: Module 'alsa' device open failed.
+[2026-03-17 11:44:01] OUT: [src/libout123/libout123.c:out123_open():483] error: Found no driver out of [alsa] working with device <default>.
+[2026-03-17 11:44:01] OUT: main: [src/mpg123.c:check_fatal_output():337] error: out123 error 3: failure loading driver module
+[2026-03-17 11:44:01] Finished run.
+[2026-03-17 11:45:01] Started. time=11:45 day=Tuesday
+[2026-03-17 11:45:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:45'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:45:01] SQL result rows: 0
+[2026-03-17 11:46:01] Started. time=11:46 day=Tuesday
+[2026-03-17 11:46:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:46'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:46:01] SQL result rows: 0
+[2026-03-17 11:47:01] Started. time=11:47 day=Tuesday
+[2026-03-17 11:47:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:47'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:47:01] SQL result rows: 0
+[2026-03-17 11:47:48] Started. time=11:47 day=Tuesday
+[2026-03-17 11:47:48] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:47'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:47:48] SQL result rows: 0
+[2026-03-17 11:48:01] Started. time=11:48 day=Tuesday
+[2026-03-17 11:48:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:48'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:48:01] SQL result rows: 0
+[2026-03-17 11:49:01] Started. time=11:49 day=Tuesday
+[2026-03-17 11:49:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:49'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:49:01] SQL result rows: 0
+[2026-03-17 11:49:01] Started. time=11:49 day=Tuesday
+[2026-03-17 11:49:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:49'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:49:01] SQL result rows: 0
+[2026-03-17 11:49:39] Started. time=11:49 day=Tuesday
+[2026-03-17 11:49:39] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:49'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:49:39] SQL result rows: 0
+[2026-03-17 11:50:01] Started. time=11:50 day=Tuesday
+[2026-03-17 11:50:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:50'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:50:01] SQL result rows: 0
+[2026-03-17 11:51:01] Started. time=11:51 day=Tuesday
+[2026-03-17 11:51:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:51'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:51:01] SQL result rows: 1
+[2026-03-17 11:51:01] Found schedule id=14 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:51:01] Running: XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 /usr/bin/mpg123 -o pulse '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:51:22] Return code: 0
+[2026-03-17 11:51:22] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:51:22] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:51:22] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:51:22] OUT: 
+[2026-03-17 11:51:22] OUT: Directory: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/
+[2026-03-17 11:51:22] OUT: Playing MPEG stream 1 of 1: istirahat.mp3 ...
+[2026-03-17 11:51:22] OUT: > 001+810  00:00.00+00:21.13 --- 100=100 160 kb/s  523 B acc    0 clip p+0.000
+[2026-03-17 11:51:22] OUT: MPEG 2.0 L III vbr 22050 mono
+[2026-03-17 11:51:22] OUT: 
+[2026-03-17 11:51:22] OUT: 	Title:
+[2026-03-17 11:51:22] OUT: 	Artist:
+[2026-03-17 11:51:22] OUT: 	Album:
+[2026-03-17 11:51:22] OUT: 	Year:
+[2026-03-17 11:51:22] OUT: 	Genre:
+[2026-03-17 11:51:22] OUT: 	Comment:
+[2026-03-17 11:51:22] OUT: 
+[2026-03-17 11:51:22] OUT: 
+[2026-03-17 11:51:22] OUT: 
+[2026-03-17 11:51:22] OUT: [0:21] Decoding of istirahat.mp3 finished.
+[2026-03-17 11:52:02] Started. time=11:52 day=Tuesday
+[2026-03-17 11:52:02] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:52'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:52:02] SQL result rows: 1
+[2026-03-17 11:52:02] Found schedule id=18 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:52:02] Running: XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 /usr/bin/mpg123 -o pulse '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:52:23] Return code: 0
+[2026-03-17 11:52:23] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:52:23] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:52:23] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:52:23] OUT: 
+[2026-03-17 11:52:23] OUT: Directory: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/
+[2026-03-17 11:52:23] OUT: Playing MPEG stream 1 of 1: istirahat.mp3 ...
+[2026-03-17 11:52:23] OUT: > 001+810  00:00.00+00:21.13 --- 100=100 160 kb/s  523 B acc    0 clip p+0.000
+[2026-03-17 11:52:23] OUT: MPEG 2.0 L III vbr 22050 mono
+[2026-03-17 11:52:23] OUT: 
+[2026-03-17 11:52:23] OUT: 	Title:
+[2026-03-17 11:52:23] OUT: 	Artist:
+[2026-03-17 11:52:23] OUT: 	Album:
+[2026-03-17 11:52:23] OUT: 	Year:
+[2026-03-17 11:52:23] OUT: 	Genre:
+[2026-03-17 11:52:23] OUT: 	Comment:
+[2026-03-17 11:52:23] OUT: 
+[2026-03-17 11:52:23] OUT: 
+[2026-03-17 11:52:23] OUT: 
+[2026-03-17 11:52:23] OUT: [0:21] Decoding of istirahat.mp3 finished.
+[2026-03-17 11:53:01] Started. time=11:53 day=Tuesday
+[2026-03-17 11:53:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:53'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:53:01] SQL result rows: 1
+[2026-03-17 11:53:01] Found schedule id=15 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:53:01] Running: XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 /usr/bin/mpg123 -o pulse '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:53:22] Return code: 0
+[2026-03-17 11:53:22] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:53:22] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:53:22] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:53:22] OUT: 
+[2026-03-17 11:53:22] OUT: Directory: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/
+[2026-03-17 11:53:22] OUT: Playing MPEG stream 1 of 1: istirahat.mp3 ...
+[2026-03-17 11:53:22] OUT: > 001+810  00:00.00+00:21.13 --- 100=100 160 kb/s  523 B acc    0 clip p+0.000
+[2026-03-17 11:53:22] OUT: MPEG 2.0 L III vbr 22050 mono
+[2026-03-17 11:53:22] OUT: 
+[2026-03-17 11:53:22] OUT: 	Title:
+[2026-03-17 11:53:22] OUT: 	Artist:
+[2026-03-17 11:53:22] OUT: 	Album:
+[2026-03-17 11:53:22] OUT: 	Year:
+[2026-03-17 11:53:22] OUT: 	Genre:
+[2026-03-17 11:53:22] OUT: 	Comment:
+[2026-03-17 11:53:22] OUT: 
+[2026-03-17 11:53:22] OUT: 
+[2026-03-17 11:53:22] OUT: 
+[2026-03-17 11:53:22] OUT: [0:21] Decoding of istirahat.mp3 finished.
+[2026-03-17 11:54:01] Started. time=11:54 day=Tuesday
+[2026-03-17 11:54:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:54'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:54:01] SQL result rows: 1
+[2026-03-17 11:54:01] Found schedule id=16 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:54:01] Running: XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 /usr/bin/mpg123 -o pulse '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
+[2026-03-17 11:54:23] Return code: 0
+[2026-03-17 11:54:23] OUT: High Performance MPEG 1.0/2.0/2.5 Audio Player for Layers 1, 2 and 3
+[2026-03-17 11:54:23] OUT: 	version 1.32.5; written and copyright by Michael Hipp and others
+[2026-03-17 11:54:23] OUT: 	free software (LGPL) without any warranty but with best wishes
+[2026-03-17 11:54:23] OUT: 
+[2026-03-17 11:54:23] OUT: Directory: /opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/
+[2026-03-17 11:54:23] OUT: Playing MPEG stream 1 of 1: istirahat.mp3 ...
+[2026-03-17 11:54:23] OUT: > 001+810  00:00.00+00:21.13 --- 100=100 160 kb/s  523 B acc    0 clip p+0.000
+[2026-03-17 11:54:23] OUT: MPEG 2.0 L III vbr 22050 mono
+[2026-03-17 11:54:23] OUT: 
+[2026-03-17 11:54:23] OUT: 	Title:
+[2026-03-17 11:54:23] OUT: 	Artist:
+[2026-03-17 11:54:23] OUT: 	Album:
+[2026-03-17 11:54:23] OUT: 	Year:
+[2026-03-17 11:54:23] OUT: 	Genre:
+[2026-03-17 11:54:23] OUT: 	Comment:
+[2026-03-17 11:54:23] OUT: 
+[2026-03-17 11:54:23] OUT: 
+[2026-03-17 11:54:23] OUT: 
+[2026-03-17 11:54:23] OUT: [0:21] Decoding of istirahat.mp3 finished.
+[2026-03-17 11:55:01] Started. time=11:55 day=Tuesday
+[2026-03-17 11:55:01] Query: SELECT schedules.*, sounds.filename 
+          FROM schedules 
+          JOIN sounds ON schedules.sound_id = sounds.id
+          WHERE TIME_FORMAT(schedules.bell_time, '%H:%i') = '11:55'
+          AND schedules.day = 'Tuesday'
+[2026-03-17 11:55:01] SQL result rows: 1
+[2026-03-17 11:55:01] Found schedule id=17 file=/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3
+[2026-03-17 11:55:01] Running: XDG_RUNTIME_DIR=/run/user/1000 DISPLAY=:0 /usr/bin/mpg123 -o pulse '/opt/lampp/htdocs/Automatic-Bell-System/cron/../uploads/istirahat.mp3' 2>&1
